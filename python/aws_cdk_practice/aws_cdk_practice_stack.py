@@ -1,11 +1,10 @@
 from aws_cdk import (
     core,
     aws_lambda as _lambda,
-    aws_apigateway as apigw
 )
 
 from cdk_dynamo_table_viewer import TableViewer
-from aws_cdk_practice.hitcounter import HitCounter
+from .hitcounter import HitCounter
 
 
 class AwsCdkPracticeStack(core.Stack):
